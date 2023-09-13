@@ -25,7 +25,6 @@ type test2 struct {
 	userAge   int
 	userType  string
 	userMess  string
-	userOline string
 }
 
 func test(start time.Time, function func(data string), data string) float64 {
@@ -66,7 +65,6 @@ func main() {
 			test2.userAge = test.Age
 			test2.userType = test.Type
 			test2.userMess = test.Data.Mess
-			test2.userOline = test.Data.Oline
 		}, testString1[i])
 	}
 	reg1 := regexp.MustCompile(`"name":"(.+?)"`)
