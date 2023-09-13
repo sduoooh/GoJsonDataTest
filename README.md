@@ -1,4 +1,4 @@
-# RegexpEncodingTest_GoJson
+# GoJsonDataTest
 A test source code with limitations.
 
 ## Context
